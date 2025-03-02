@@ -1,0 +1,6 @@
+/* client/src/pages/Home.css */
+.home-container {
+  display: grid;
+  grid-template-columns: 1fr 350px; /* Orta sütun - Sağ sütun */
+  min-height: 100vh;
+}

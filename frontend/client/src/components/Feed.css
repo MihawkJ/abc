@@ -1,0 +1,80 @@
+/* client/src/components/Feed.css */
+.feed-container {
+  border-right: 1px solid #ddd;
+  min-height: 100vh;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.feed-tabs {
+  display: flex;
+  border-bottom: 1px solid #ddd;
+}
+
+.feed-tab {
+  flex: 1;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.feed-tab:hover {
+  background-color: #f7f7f7;
+}
+
+.feed-tab.active {
+  border-bottom: 3px solid #1d9bf0;
+  color: #1d9bf0;
+  font-weight: bold;
+}
+
+.post-create {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 15px;
+  border-bottom: 1px solid #ddd;
+  gap: 10px;
+}
+
+.post-create textarea {
+  width: 100%;
+  border: 1px solid #ddd;
+  resize: none;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.post-create button {
+  align-self: flex-end;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px;
+  background-color: #1d9bf0;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.post-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-item {
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.post-item strong {
+  font-size: 14px;
+  color: #555;
+}
+
+.post-item p {
+  margin: 5px 0 0;
+  font-size: 16px;
+}

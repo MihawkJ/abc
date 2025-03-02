@@ -1,0 +1,8 @@
+/* client/src/pages/Profile.css */
+.profile-container {
+  padding: 40px;
+  background: #f5f7fa;
+  min-height: calc(100vh - 70px);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}

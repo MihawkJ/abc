@@ -1,0 +1,51 @@
+/* client/src/components/Sidebar.css */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+  background-color: #fff;
+  min-width: 250px;
+  min-height: 100vh;
+}
+
+.sidebar-logo {
+  margin-right: 35px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+}
+
+.sidebar-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Menü öğelerinin ortak stili */
+.menu-item {
+  display: flex;
+  align-items: center;
+  gap: 12px; /* İkon ve yazı arasındaki boşluk */
+  font-size: 18px;
+  color: #333;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 30px;
+  transition: background 0.2s;
+}
+
+.menu-item:hover {
+  background-color: #e8f5fe;
+}
+
+.logout {
+  cursor: pointer;
+  color: #e0245e; /* Kırmızımsı renk */
+}
+
+/* İkon boyutu */
+.icon {
+  font-size: 20px;
+}
